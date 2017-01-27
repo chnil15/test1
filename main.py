@@ -10,9 +10,6 @@ class Test(unittest.TestCase):
 		y= 2
 		z= x*y
 		self.assertEqual(z, 6)
-		print(x)
-		print(y)
-		print(z)
 
 if __name__ == '__main__':
 	unittest.main()
