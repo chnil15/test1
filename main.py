@@ -6,7 +6,13 @@ class Test(unittest.TestCase):
 		pass
 
 	def test_1(self):
-		self.assertEqual(3, 3)
+		x= 3
+		y= 2
+		z= x*y
+		self.assertEqual(z, 3)
+		print(x)
+		print(y)
+		print(z)
 
 if __name__ == '__main__':
 	unittest.main()
