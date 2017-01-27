@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
 		x= 3
 		y= 2
 		z= x*y
-		self.assertEqual(z, 3)
+		self.assertEqual(z, 6)
 		print(x)
 		print(y)
 		print(z)
