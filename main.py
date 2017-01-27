@@ -11,5 +11,11 @@ class Test(unittest.TestCase):
 		z= x*y
 		self.assertEqual(z, 6)
 
+	def test_2(self):
+		x= 9
+		y= 3
+		z= x/y
+		self.assertEqual(z, 3)
+
 if __name__ == '__main__':
 	unittest.main()
