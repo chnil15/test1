@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
 		self.assertEqual(z, 6)
 
 	def test_2(self):
-		x= 9
+		x= 12
 		y= 3
 		z= x/y
 		self.assertEqual(z, 3)
